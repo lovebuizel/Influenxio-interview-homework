@@ -186,6 +186,9 @@ const HomePage = () => {
   return (
     <Layout>
       <Provider value={memoizedValue}>
+        <Text as="b" fontSize="24px">
+          Bank Counter
+        </Text>
         <CounterTable />
         <HStack mt="2">
           <Text>
